@@ -21,5 +21,17 @@ namespace DemoProject
         {
             lblHelloWorld.Text = "Hello World!";
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int count = int.Parse(Counter.Text);
+            count++;
+            Counter.Text = count.ToString();
+        }
     }
 }

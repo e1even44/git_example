@@ -19,3 +19,14 @@ C:\Users\lwnkah7\source\repos\git_example\DemoProject\obj\Debug\DemoProject.cspr
 C:\Users\lwnkah7\source\repos\git_example\DemoProject\obj\Debug\DemoProject.csproj.CoreCompileInputs.cache
 C:\Users\lwnkah7\source\repos\git_example\DemoProject\obj\Debug\DemoProject.exe
 C:\Users\lwnkah7\source\repos\git_example\DemoProject\obj\Debug\DemoProject.pdb
+C:\Users\RS\Documents\2APEC\ITL-Projekte\git_example\DemoProject\bin\Debug\DemoProject.exe.config
+C:\Users\RS\Documents\2APEC\ITL-Projekte\git_example\DemoProject\bin\Debug\DemoProject.exe
+C:\Users\RS\Documents\2APEC\ITL-Projekte\git_example\DemoProject\bin\Debug\DemoProject.pdb
+C:\Users\RS\Documents\2APEC\ITL-Projekte\git_example\DemoProject\obj\Debug\DemoProject.csproj.AssemblyReference.cache
+C:\Users\RS\Documents\2APEC\ITL-Projekte\git_example\DemoProject\obj\Debug\DemoProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\RS\Documents\2APEC\ITL-Projekte\git_example\DemoProject\obj\Debug\DemoProject.MainForm.resources
+C:\Users\RS\Documents\2APEC\ITL-Projekte\git_example\DemoProject\obj\Debug\DemoProject.Properties.Resources.resources
+C:\Users\RS\Documents\2APEC\ITL-Projekte\git_example\DemoProject\obj\Debug\DemoProject.csproj.GenerateResource.cache
+C:\Users\RS\Documents\2APEC\ITL-Projekte\git_example\DemoProject\obj\Debug\DemoProject.csproj.CoreCompileInputs.cache
+C:\Users\RS\Documents\2APEC\ITL-Projekte\git_example\DemoProject\obj\Debug\DemoProject.exe
+C:\Users\RS\Documents\2APEC\ITL-Projekte\git_example\DemoProject\obj\Debug\DemoProject.pdb
