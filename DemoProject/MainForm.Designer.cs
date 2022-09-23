@@ -33,6 +33,8 @@ namespace DemoProject
             this.lblHelloWorld = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.BtnCount = new System.Windows.Forms.Button();
+            this.Count = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnClickThis
@@ -79,11 +81,32 @@ namespace DemoProject
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // BtnCount
+            // 
+            this.BtnCount.Location = new System.Drawing.Point(16, 124);
+            this.BtnCount.Name = "BtnCount";
+            this.BtnCount.Size = new System.Drawing.Size(108, 31);
+            this.BtnCount.TabIndex = 4;
+            this.BtnCount.Text = "Count";
+            this.BtnCount.UseVisualStyleBackColor = true;
+            this.BtnCount.Click += new System.EventHandler(this.BtnCount_Click);
+            // 
+            // Count
+            // 
+            this.Count.Location = new System.Drawing.Point(130, 128);
+            this.Count.Name = "Count";
+            this.Count.Size = new System.Drawing.Size(53, 22);
+            this.Count.TabIndex = 5;
+            this.Count.Text = "0";
+            this.Count.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(433, 178);
+            this.Controls.Add(this.Count);
+            this.Controls.Add(this.BtnCount);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblHelloWorld);
@@ -102,6 +125,8 @@ namespace DemoProject
         private System.Windows.Forms.Label lblHelloWorld;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnCount;
+        private System.Windows.Forms.TextBox Count;
     }
 }
 

@@ -76,5 +76,12 @@ namespace DemoProject
         {
             this.Close();
         }
+
+        private void BtnCount_Click(object sender, EventArgs e)
+        {
+            int count = int.Parse(Count.Text);
+            count++;
+            Count.Text = count.ToString();
+        }
     }
 }
