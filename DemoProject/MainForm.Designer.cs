@@ -35,13 +35,14 @@ namespace DemoProject
             // 
             // btnClickThis
             // 
+            this.btnClickThis.BackColor = System.Drawing.Color.Green;
             this.btnClickThis.Location = new System.Drawing.Point(16, 74);
             this.btnClickThis.Margin = new System.Windows.Forms.Padding(4);
             this.btnClickThis.Name = "btnClickThis";
             this.btnClickThis.Size = new System.Drawing.Size(108, 31);
             this.btnClickThis.TabIndex = 0;
             this.btnClickThis.Text = "Click this";
-            this.btnClickThis.UseVisualStyleBackColor = true;
+            this.btnClickThis.UseVisualStyleBackColor = false;
             this.btnClickThis.Click += new System.EventHandler(this.btnClickThis_Click);
             // 
             // lblHelloWorld
