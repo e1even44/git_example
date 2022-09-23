@@ -21,5 +21,55 @@ namespace DemoProject
         {
             lblHelloWorld.Text = "Hello World!";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Random random = new Random();
+            int number = random.Next(1, 11);
+
+            switch (number)
+            {
+                case 1:
+                    button1.BackColor = Color.Red;
+                    break;
+
+                case 2:
+                    button1.BackColor = Color.Blue;
+                    break;
+
+                case 3:
+                    button1.BackColor = Color.Violet;
+                    break;
+
+                case 4:
+                    button1.BackColor = Color.Pink;
+                    break;
+
+                case 5:
+                    button1.BackColor = Color.Orange;
+                    break;
+
+                case 6:
+                    button1.BackColor = Color.Yellow;
+                    break;
+
+                case 7:
+                    button1.BackColor = Color.LightGreen;
+                    break;
+
+                case 8:
+                    button1.BackColor = Color.Cyan;
+                    break;
+
+                case 9:
+                    button1.BackColor = Color.Indigo;
+                    break;
+
+                case 10:
+                    button1.BackColor = Color.Gray;
+                    break;
+            }
+   
+        }
     }
 }
