@@ -10,7 +10,6 @@ using System.Windows.Forms;
 
 namespace DemoProject
 {
-    //push test
     public partial class MainForm : Form
     {
         public MainForm()
