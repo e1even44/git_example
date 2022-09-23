@@ -35,9 +35,10 @@ namespace DemoProject
             // 
             // btnClickThis
             // 
-            this.btnClickThis.Location = new System.Drawing.Point(12, 60);
+            this.btnClickThis.Location = new System.Drawing.Point(16, 74);
+            this.btnClickThis.Margin = new System.Windows.Forms.Padding(4);
             this.btnClickThis.Name = "btnClickThis";
-            this.btnClickThis.Size = new System.Drawing.Size(81, 25);
+            this.btnClickThis.Size = new System.Drawing.Size(108, 31);
             this.btnClickThis.TabIndex = 0;
             this.btnClickThis.Text = "Click this";
             this.btnClickThis.UseVisualStyleBackColor = true;
@@ -46,20 +47,22 @@ namespace DemoProject
             // lblHelloWorld
             // 
             this.lblHelloWorld.AutoSize = true;
-            this.lblHelloWorld.Location = new System.Drawing.Point(109, 66);
+            this.lblHelloWorld.Location = new System.Drawing.Point(145, 81);
+            this.lblHelloWorld.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHelloWorld.Name = "lblHelloWorld";
-            this.lblHelloWorld.Size = new System.Drawing.Size(0, 13);
+            this.lblHelloWorld.Size = new System.Drawing.Size(0, 16);
             this.lblHelloWorld.TabIndex = 1;
             // 
-            // Form1
+            // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(325, 145);
+            this.ClientSize = new System.Drawing.Size(433, 178);
             this.Controls.Add(this.lblHelloWorld);
             this.Controls.Add(this.btnClickThis);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "MainForm";
+            this.Text = "Demo Project";
             this.ResumeLayout(false);
             this.PerformLayout();
 
